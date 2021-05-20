@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link href="css/homework5.css" rel="stylesheet" type="text/css" />
+	<link href="assets/libs/fontawesomepro/css/light.min.css" rel="sytlesheet" type="text/css" />
+	<link href="assets/libs/fontawesomepro/css/all.min.css" rel="sytlesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" /> -->
+</head>
+<body>
+	<div class="container">
+		<div class="container-card">
+			<div class="container-result">
+				<input type="text" name="inputtext" id="inputtext" class="inputtext" />
+			</div>
+	
+			
+				<div class="container-div1">
+					<div class="button">
+						<button name="mod" id="mod" class="btn" onclick="input('%')"><i class="fal fa-percent"></i></button>
+					</div>
+					<div class="button">
+						<button name="dev" id="dev" class="btn" onclick="input('/')"><i class="fal fa-divide"></i></button>
+					</div>
+					<div class="button">
+						<button name="btnclear" id="btnclear" class="btn">C</button>
+					</div>
+					<div class="button">
+						<button name="btndel" id="btndel" class="btn"><i class="fal fa-backspace"></i></button>
+					</div>
+				</div>
+				<div class="container-div2">
+					<div class="button">
+						<button name="btn9" id="btn9" class="input" onclick="input('9')">9</button>
+					</div>
+					<div class="button">
+						<button name="btn8" id="btn8" class="input" onclick="input('8')">8</button>
+					</div>
+					<div class="button">
+						<button name="btn7" id="btn7" class="input" onclick="input('7')">7</button>
+					</div>
+					<div class="button">
+						<button name="multi" id="multi" class="btn" onclick="input('*')"><i class="fal fa-times"></i></button>
+					</div>				
+				</div>
+				<div class="container-div3">
+					<div class="button">
+						<button name="btn6" id="btn6" class="input" onclick="input('6')">6</button>
+					</div>
+					<div class="button">
+						<button name="btn5" id="btn5" class="input" onclick="input('5')">5</button>
+					</div>
+					<div class="button">
+						<button name="btn4" id="btn4" class="input" onclick="input('4')">4</button>
+					</div>
+					<div class="button">
+						<button name="sub" id="sub" class="btn" onclick="input('-')"><i class="fal fa-minus"></i></button>
+					</div>
+				</div>
+				<div class="container-div4">
+					<div class="button">
+						<button name="btn3" id="btn3" class="input" onclick="input('3')">3</button>
+					</div>
+					<div class="button">
+						<button name="btn2" id="btn2" class="input" onclick="input('2')">2</button>
+					</div>
+					<div class="button">
+						<button name="btn1" id="btn1" class="input" onclick="input('1')">1</button>
+					</div>
+					<div class="button">
+						<button name="add" id="add" class="btn" onclick="input('+')" ><i class="fal fa-plus"></i></button>
+					</div>
+				</div>
+				<div class="container-div5">
+					<div class="button">
+						<button name="btndot" id="btndot" class="input" onclick="input('.')">.</button>
+					</div>
+					<div class="button">
+						<button name="btn0" id="btn0" class="input" onclick="input('0')">0</button>
+					</div>
+					<div class="button">
+						<button name="cal" id="cal" class="btn" onclick="calculate()"><i class="fal fa-equals"></i></button>
+					</div>				
+				</div>
+
+		</div>		
+		
+	</div>
+
+<script src="assets/libs/fontawesomepro/js/all.min.js" type="text/javascript"></script>
+<script src="js/homework5.js" type="text/javascript"></script>
+</body>
+</html>

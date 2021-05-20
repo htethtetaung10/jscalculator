@@ -1,0 +1,90 @@
+body{
+    align-items: center;
+}
+
+:root{
+    --wh: 70px;
+    --bg: snow;
+    --txtcolor: rgb(56, 53, 53);
+    --btncolor: rgba(189, 49, 49, 0.822);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-card{
+    background-color:rosybrown;
+    width: 350px;
+    height: 520px;
+    display: inline-block;
+    padding-top: 15px;
+}
+.container-result, .container-div1, .container-div2, .container-div3, .container-div4, .container-div5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: var(--wh);
+    margin-top: 10px;
+}
+
+.container-result{
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.inputtext{
+    width:300px;
+    height: var(--wh);
+    text-align: right;
+    border-radius: 0;
+    padding-right: 5px;
+    
+}
+
+.inputtext:focus{
+    outline: 0;
+}
+
+.btn{
+    width: var(--wh);
+    height: var(--wh);
+    text-align: center;
+    font-size: 40px;
+    color: var(--btncolor);
+    border-radius: 35%;
+}
+
+.input{
+    width: var(--wh);
+    height: var(--wh);   
+}
+
+.inputtext, .btn, .input{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    background: var(--bg);
+    border:none;
+}
+
+.inputtext, .input{
+    color: var(--txtcolor);
+}
+
+.input{
+    border-radius: 35%;
+    font-size: 30px;
+}
+
+#cal{
+    width: 150px;
+    font-size: 45px;
+    border-radius: 5px;
+}
+
+.button{
+    margin-left: 10px;
+}
